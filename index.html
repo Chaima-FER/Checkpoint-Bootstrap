@@ -23,6 +23,15 @@
 
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Fly With Us</a>
+              <input class="form-control rounded-pill" list="datalistOptions" id="exampleDataList" placeholder="Search your destination">
+<datalist id="datalistOptions">
+  <option value="Greece">
+  <option value="New York">
+  <option value="South Korea">
+  <option value="Tunisia">
+  <option value="Spain">
+  <option value="Italy">
+</datalist>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -117,8 +126,7 @@
               </div>
             </div>
             
-
-            <section> 
+            <section > 
               <h2 class="text-center pb-5 pt-5"> Tours </h2> 
               <!--accordion-->
               <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -131,7 +139,7 @@
                   <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">Across one vast landmass you will find almost everything. Sci-fi skyscrapers in Japan, whitewashed mountain monasteries, honking moped shoals and silent Taoist temples, neon cityscapes and saffron-clad monks bent in prayer. If you’ve come for the familiar, you’re in for a surprise. You can munch deep-fried grasshoppers with white pepper in Thailand. Ride across the Mongolian tundra. Explore the rice paddy fields in Bali. Swim with Burmese sea-gypsies. You will begin to understand - this place is where ordinary goes to die. </div>
                     <img src="image/Taj-Mahal-GettyImages-485899645.webp" class="img-fluid" alt="Picture Loading">
-                    <a class="btn btn-primary btn-lg" href="https://www.travelex.ae/" role="button">View Details</a>
+                    <a class="btn btn-primary btn-lg d-flex justify-content-center" target="_blank" href="https://www.travelex.ae/" role="button">View Details</a>
                   </div>
                 </div>
                 <div class="accordion-item">
@@ -142,7 +150,8 @@
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">Can you picture yourself heading deep into the heartland of the Maasai tribespeople and learning the adumu (jumping dance) with a local community? Or spotting the Big Five on the plains of the Serengeti? How about exploring the bustling capital of Nairobi and eating traditional Kenyan food with your fellow travelers? If you answered yes, yes and yes, Kenya promises all that... and then some. Spot iconic wildlife, travel through raw landscapes, and immerse yourself in cultural heritage with a local leader who calls this captivating country home.</div>
-                    <img src="image/160213-e2ed25b7-f7c4-4cec-b1c6-bd314b43c74a_0.jpg" class="img-fluid" alt="Picture Loading">
+                    <img src="image/160213-e2ed25b7-f7c4-4cec-b1c6-bd314b43c74a_0.jpg" class="img-fluid" alt="Picture Loading" >
+                    <a class="btn btn-primary btn-lg d-flex justify-content-center" target="_blank" href="https://www.travelex.ae/" role="button">View Details</a>
 
                   </div>
                 </div>
@@ -155,6 +164,7 @@
                   <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                     <div class="accordion-body">With a trip to Europe, you’ll fill your heart (and camera roll!) with history, culture, and natural beauty. In one continent, you can wander ancient cities, experience vibrant art and food scenes, get your feet wet in lakes, seas, and oceans, and gaze across Alpine vistas or rugged Highlands. Start small or go on a grand tour—we’re here to show you around. <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
                     <img src="image/ECYC_Greece_Santorini_003.jpg" class="img-fluid" alt="Picture Loading">
+                    <a class="btn btn-primary btn-lg d-flex justify-content-center" target="_blank" href="https://www.travelex.ae/" role="button">View Details</a>
 
                   </div>
                 </div>
@@ -162,6 +172,62 @@
               
         </section>
 
+        
+          <section class="bg-light.bg-gradient mt-5 pt-5 pd-5">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-sm-8">
+                  <h2> Contact US</h2>
+                  <div class="input-group">
+                    <span class="input-group-text">Full name</span>
+                    <input type="text" aria-label="First name" class="form-control" placeholder="First-name">
+                    <input type="text" aria-label="Last name" class="form-control" placeholder="Last-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label"> <h6>Email address</h6></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <h6> Destination of interest </h6>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Destination</button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">America</a></li>
+                      <li><a class="dropdown-item" href="#">Europe</a></li>
+                      <li><a class="dropdown-item" href="#">Asia</a></li>
+                      <li><a class="dropdown-item" href="#">Africa</a></li>
+                    </ul>
+                  </div>
+
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"><h6> Write us something</h6></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Click to Submit</button>
+                </div>
+                </div>
+                
+
+
+
+                <div class="col-sm-4">
+                  <h2> Find US</h2>
+                  <p> Travelex Travels & Tours LLC
+                  P.O. Box – 112514
+                  Dubai, United Arab Emirates
+                  Info@travelexdubai.com
+                  +971 4 379 7570 </p>
+                  <h2> Map</h2>
+                  <img src="image/map.PNG" class="img-fluid" alt="Picture Loading">
+
+                </div>
+
+              </div>
+            
+              </section> 
+                
 
 
 
@@ -171,12 +237,11 @@
 
 
 
-          
-          <section>
-            <a name="Contact"></a>
-          </section>
 
-    </main>
+
+
+
+               </main>
 
     
     
